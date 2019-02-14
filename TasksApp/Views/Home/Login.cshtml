@@ -1,0 +1,22 @@
+﻿@using TasksApp.Models
+@model LoginViewModel
+
+
+<div class="container" style="margin-top:40px">
+    @if (!String.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info">@Model.Message</div>
+    }
+    <div class="well well-sm">
+        <h2>Please Login to your Account</h2>
+        <form method="post" action="/Home/SignIn">
+            <input type="text" name="EmailAddress" placeholder="Email Address" class="form-control" />
+            <br />
+            <input type="password" name="Password" placeholder="Password" class="form-control" />
+            <br />
+            <button class="btn btn-success">Login</button>
+        </form>
+      
+    </div>
+</div>
+

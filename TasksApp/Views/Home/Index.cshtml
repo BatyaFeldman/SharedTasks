@@ -1,0 +1,31 @@
+﻿@using TasksApp.Models
+@model IndexViewModel
+
+<div class="container" style="margin-top:40px">
+
+    <div class="input-group">
+        <input type="text" name="task" id="task" placeholder="Task" class="form-control row" />
+        <div class="input-group-btn">
+        <button class="btn btn-success" id="addBtn">Add Task</button>
+            </div>
+        <input type="hidden" value="@Model.UserId" id="userId" />
+    </div>
+    
+
+    <br />
+    <table class="table table-bordered" id="thisTable">
+        <tr>
+            <th>Task</th>
+            <th>Status</th>
+        </tr>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/jquery.signalR-2.3.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/Index.js"></script>
+}
+
+
+

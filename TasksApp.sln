@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksApp", "TasksApp\TasksApp.csproj", "{9D0C2F64-C91B-4C02-BD4B-0303FA36D36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksApp.Data", "TasksApp.Data\TasksApp.Data.csproj", "{0DBCDFE5-3631-40AA-8BAB-02EBF353C105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D0C2F64-C91B-4C02-BD4B-0303FA36D36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0C2F64-C91B-4C02-BD4B-0303FA36D36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0C2F64-C91B-4C02-BD4B-0303FA36D36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0C2F64-C91B-4C02-BD4B-0303FA36D36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBCDFE5-3631-40AA-8BAB-02EBF353C105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBCDFE5-3631-40AA-8BAB-02EBF353C105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBCDFE5-3631-40AA-8BAB-02EBF353C105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBCDFE5-3631-40AA-8BAB-02EBF353C105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F76469-C8D7-4A80-A1AF-68BE910FD2C0}
+	EndGlobalSection
+EndGlobal
